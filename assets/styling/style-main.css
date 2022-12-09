@@ -1,0 +1,263 @@
+.tradeAnything {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.paragraphOne, .paragraphTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.paragraphTwo {
+  margin-top: 10rem;
+}
+
+.containerOfCoinImages, .containerOfSecondImages {
+  max-height: 512px;
+  max-width: 512px;
+  position: relative;
+  width: 252px;
+}
+
+.containerOfSecondImages {
+  margin-top: 10rem;
+}
+
+.images {
+  width: 252px;
+  height: 252px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: baseline;
+}
+
+.secondPart {
+  background-color: #3c3742;
+}
+
+.earnPassive {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+/*
+.main-content svg {
+  fill: #08060b;
+}
+.svgImage svg {
+  fill: #08060b;
+}*/
+.tradeNow, .explore {
+  display: flex;
+  align-items: center;
+}
+
+span,
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+span {
+  color: #9a6aff;
+}
+
+h2 {
+  color: #f4eeff;
+}
+
+.subTitle {
+  color: #b8add2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.buttonTrade, .buttonExplore {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0;
+  margin-bottom: 0;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: #1fc7d4;
+  color: #191326;
+  margin-right: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.learnLink {
+  color: #1fc7d4;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.containerOfCoinImages :nth-child(1), .containerOfSecondImages :nth-child(1) {
+  -webkit-animation: 3s ease-in-out 1s infinite normal none running image;
+          animation: 3s ease-in-out 1s infinite normal none running image;
+}
+@-webkit-keyframes image {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(3px, 15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes image {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(3px, 15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.containerOfCoinImages :nth-child(2), .containerOfSecondImages :nth-child(2) {
+  -webkit-animation: 3s ease-in-out 1s infinite normal none running image;
+          animation: 3s ease-in-out 1s infinite normal none running image;
+}
+@keyframes image {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(5px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.containerOfCoinImages :nth-child(3), .containerOfSecondImages :nth-child(3) {
+  -webkit-animation: 3s ease-in-out 1s infinite normal none running image;
+          animation: 3s ease-in-out 1s infinite normal none running image;
+}
+@keyframes image {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(6px, 5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.containerOfSecondImages :nth-child(1) {
+  -webkit-animation: 3s ease-in-out 1s infinite normal none running image;
+          animation: 3s ease-in-out 1s infinite normal none running image;
+}
+@keyframes image {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(3px, 15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.containerOfSecondImages :nth-child(2) {
+  -webkit-animation: 3s ease-in-out 1s infinite normal none running image;
+          animation: 3s ease-in-out 1s infinite normal none running image;
+}
+@keyframes image {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(5px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.containerOfSecondImages :nth-child(3) {
+  -webkit-animation: 3s ease-in-out 1s infinite normal none running image;
+          animation: 3s ease-in-out 1s infinite normal none running image;
+}
+@keyframes image {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(6px, 5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.table-heading {
+  display: flex;
+  align-items: center;
+  margin-top: 20rem;
+  gap: 1rem;
+}
+
+.table-content {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 1rem;
+}
+
+.content1, .content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content2 {
+  border-left: 1px solid #262130;
+  padding-left: 16px;
+}
+
+.head {
+  color: #9a6aff;
+}
+
+.number {
+  color: #f4eeff;
+}
+
+.subhead {
+  color: #b8add2;
+}
+
+.second-table {
+  display: none;
+}/*# sourceMappingURL=style-main.css.map */
